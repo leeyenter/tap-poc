@@ -16,3 +16,10 @@ spec:
         value: "build"
       - name: BP_WEB_SERVER_ROOT
         value: "build"
+
+  source:
+    git:
+      ref:
+        branch: main
+      url: https://github.com/leeyenter/tap-poc-react.git
+    subPath: frontend
