@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736612f3-3803-4700-9811-50902557e0bd" name="Changes" comment="Trigger commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tap-poc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/.tanzuignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/workload.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/example/demo/DogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/example/demo/DogControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="736612f3-3803-4700-9811-50902557e0bd" name="Changes" comment="Try adding simple Java backend">
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.DemoApplicationTests.executor": "Run",
     "JUnit.DogControllerTest.contextLoads.executor": "Run",
     "JUnit.DogControllerTest.shouldReturnDefaultMessage.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -94,6 +73,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -101,7 +83,37 @@
       <recent name="com.example.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DogControllerTest.shouldReturnDefaultMessage">
+  <component name="RunManager" selected="JUnit.DogControllerTest">
+    <configuration name="DemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DogControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.DogControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DogControllerTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -143,6 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DogControllerTest" />
+        <item itemvalue="JUnit.DemoApplicationTests" />
         <item itemvalue="JUnit.DogControllerTest.shouldReturnDefaultMessage" />
         <item itemvalue="JUnit.DogControllerTest.contextLoads" />
       </list>
@@ -167,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705298983886</updated>
       <workItem from="1705298984924" duration="2310000" />
-      <workItem from="1705308822743" duration="2805000" />
+      <workItem from="1705308822743" duration="3175000" />
     </task>
     <task id="LOCAL-00001" summary="Trigger commit">
       <option name="closed" value="true" />
@@ -177,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705310694106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Try adding simple Java backend">
+      <option name="closed" value="true" />
+      <created>1705311931733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705311931733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +207,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Trigger commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trigger commit" />
+    <MESSAGE value="Try adding simple Java backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try adding simple Java backend" />
   </component>
 </project>
